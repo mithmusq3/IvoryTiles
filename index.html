@@ -96,7 +96,7 @@
     </div>
 
 
-
+    <section id="audiosection">
     <audio id="auCb" controls="none" preload="auto" style="display:none">
         <source src="audio/Cb.mp3" type="audio/mp3">
     </audio>
@@ -206,11 +206,19 @@
         <source src="audio/Bh.mp3" type="audio/mp3">
     </audio>
     <audio id="auMithu" controls="none" preload="auto" style="display:none">
-        <source src="audio/snehithanae.mp3" type="audio/mp3">
+        <source src="" type="audio/mp3">
+        <!-- audio/snehithanae.mp3 -->
     </audio>
-    <div>
+    </section>
+    <!-- <div>
         <p id="trialbyMithu" style="text-align:right;cursor:pointer;padding-top:40px;">Sample</p>
-    </div>
+    </div> -->
+    <!-- <div id="player">
+		<i class="fa fa-volume-down"></i>
+		<div id="volume"></div>
+		<i class="fa fa-volume-up"></i>
+	</div> -->
+    <input id="volumeslider" value="100"min="0" max="100" type="range"></input>
     <script src="piano.js"></script>
 </body>
 </html>
